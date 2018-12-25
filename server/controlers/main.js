@@ -1,5 +1,5 @@
 module.exports = {
     home: (req, res) => {
-        res.send('home page')
+        res.send({home:'homepage'})
     }
 }
